@@ -13,7 +13,7 @@ class PreprocessingAndDSLEngineTest extends GroovyTestCase {
 balabala...
 dongjiang
 key:value
-123:abc
+ç
 """
 
     void testDSL() {

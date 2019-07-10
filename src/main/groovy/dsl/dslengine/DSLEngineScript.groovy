@@ -20,7 +20,6 @@ abstract class DSLEngineScript extends Script {
             addKeywords(keywords)
         }
     }
-
     private void addKeywords(keywords) {
         keywords.getKeywords()?.each { keyword ->
             this.metaClass."$keyword.name" = keyword.closure

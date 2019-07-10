@@ -2,3 +2,5 @@ dsl.dslengine.keyword.DebuggingKeywordProvider
 dsl.dslengine.keyword.CallKeywordProvider
 dsl.dslengine.keyword.PlayKeywordProvider
 dsl.dslengine.keyword.SendMessageKeywordPrivider
+dsl.dslengine.keyword.ExitKeywordProvider
+dsl.dslengine.keyword.ImportKeywordProvider

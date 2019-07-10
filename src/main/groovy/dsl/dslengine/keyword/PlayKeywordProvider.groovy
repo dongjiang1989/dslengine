@@ -19,6 +19,9 @@ class PlayKeywordProvider implements KeywordProvider {
         playKeyword.help = "Play moving."
         playKeyword.aliases = ["play", "PLAY"]
         playKeyword.closure = { value ->
+            if (value == null)
+                return this
+
             if (value instanceof List) {
                 value.each {
                     println "play1: ${it}"

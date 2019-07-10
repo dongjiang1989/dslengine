@@ -20,9 +20,7 @@ class TimerKeywordProvider implements KeywordProvider {
         timerKeyword.aliases = ["timer", "Timer", "TIMER"]
         timerKeyword.closure = {
             println "Timer: balabala..."
-
             return  new Timer()
-
         }
         keywords << timerKeyword
 
