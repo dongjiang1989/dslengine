@@ -24,7 +24,7 @@ class ImportKeywordProvider implements KeywordProvider {
             if (value in hasImport) {
                 println(value, "has imported!!!")
             } else {
-
+                hasImport << value
             }
         }
         keywords << exitKeyword

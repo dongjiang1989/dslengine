@@ -4,3 +4,6 @@ dsl.dslengine.keyword.PlayKeywordProvider
 dsl.dslengine.keyword.SendMessageKeywordPrivider
 dsl.dslengine.keyword.ExitKeywordProvider
 dsl.dslengine.keyword.ImportKeywordProvider
+dsl.dslengine.keyword.TaskKeywordProvider
+dsl.dslengine.keyword.JoinKeywordProvider
+dsl.dslengine.keyword.NotifyKeywordPovider

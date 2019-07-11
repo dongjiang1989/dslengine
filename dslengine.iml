@@ -11,5 +11,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="groovy-2.5.7" level="application" />
+    <orderEntry type="library" name="org.grails:grails-async:3.1.1" level="project" />
   </component>
 </module>

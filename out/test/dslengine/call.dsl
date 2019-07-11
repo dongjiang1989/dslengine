@@ -1,4 +1,4 @@
-package call
+package RTC
 
 import static java.lang.Math.pow
 println pow(2,3)
@@ -15,6 +15,7 @@ mys()
 def func1(abc) {
     println "func1 bababa..."
 }
+
 bbb = this.&func1
 bbb()
 func1()
